@@ -1,0 +1,55 @@
+/* ################## Footer  ############### */
+
+.acc a {
+  background-color: #cccccc12;
+  color: #838686 !important;
+  padding: 10px;
+}
+.acc a:hover {
+  color: #02114f;
+}
+.text{
+  color: #BDBDBDFC; 
+  font-size:14px;
+  line-height:1.5rem;
+}
+.foot ul{
+  color: #bdbdbdfc;
+  font-size: 13px;
+  list-style: none;
+  padding:0px;
+}
+ .foot ul li {
+      padding-bottom: 6px;
+  }
+.footer a {
+    color: #23a7ae;
+  }
+.footer a:hover {
+    color: #ffffff;
+  }
+.footer a:first-child{
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1000px) {
+  .heads{
+    display: none;
+  }
+  .rights{
+    text-align: center !important;
+  }
+}
+@media screen and (min-width:1000px)
+{
+    .foot{
+        display: flex;
+        justify-content: space-between;
+    }  
+    .footend {
+      width: 85%;
+    }
+    .rights{
+      padding: 2px ;
+    }
+}
